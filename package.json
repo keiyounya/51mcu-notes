@@ -1,0 +1,19 @@
+{
+  "name": "51mcu-notes",
+  "version": "1.0.0",
+  "description": "51 MCU notes written by keiyou",
+  "scripts": {
+    "format": "pnpm exec prettier . --write",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "author": "keiyounya",
+  "license": "MIT",
+  "packageManager": "pnpm@10.26.2",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "prettier": "3.7.4",
+    "vitepress": "2.0.0-alpha.15"
+  }
+}
