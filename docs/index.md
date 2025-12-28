@@ -6,7 +6,7 @@ hero:
   text: '51 单片机笔记'
   tagline: Written by Keiyou
   image:
-    src: /assets/avatar.png
+    src: /avatar.png
     alt: Keiyou
   actions:
     - theme: brand

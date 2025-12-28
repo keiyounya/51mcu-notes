@@ -8,12 +8,12 @@ export default defineConfig({
   description: '51 MCU notes written by keiyou',
   lang: 'zh-CN',
   base: base,
-  head: [['link', { rel: 'icon', href: resolve(base, 'assets/avatar.png') }]],
+  head: [['link', { rel: 'icon', href: resolve(base, 'avatar.png') }]],
   appearance: 'dark',
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
-    logo: '/assets/avatar.png',
+    logo: '/avatar.png',
     search: {
       provider: 'local',
     },
